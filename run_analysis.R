@@ -15,15 +15,15 @@ loadData <- function(){
     # Load the Test and Training Data into data tables using dplyr
     library(data.table)
     
-    XColNames <- read.table("Assignment/UCI HAR Dataset/features.txt", sep = " ", header=FALSE, col.names = c("ID", "NAME"))
-    activityLabels <- read.table("Assignment/UCI HAR Dataset/activity_labels.txt", sep = " ", header=FALSE, col.names = c("ID", "LABEL"), stringsAsFactors = FALSE)
-    subjectTrain <- read.table("Assignment/UCI HAR Dataset/train/subject_train.txt", sep = " ", header=FALSE, col.names = c("Subject ID"))
-    subjectTest <- read.table("Assignment/UCI HAR Dataset/test/subject_test.txt", sep = " ", header=FALSE, col.names = c("Subject ID"))
+    XColNames <- read.table("UCI HAR Dataset/features.txt", sep = " ", header=FALSE, col.names = c("ID", "NAME"))
+    activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt", sep = " ", header=FALSE, col.names = c("ID", "LABEL"), stringsAsFactors = FALSE)
+    subjectTrain <- read.table("UCI HAR Dataset/train/subject_train.txt", sep = " ", header=FALSE, col.names = c("Subject ID"))
+    subjectTest <- read.table("UCI HAR Dataset/test/subject_test.txt", sep = " ", header=FALSE, col.names = c("Subject ID"))
     
-    wearTest <- read.table("Assignment/UCI HAR Dataset/test/X_test.txt", sep = "", header=FALSE, col.names = XColNames$NAME )
-    yTest <- read.table("Assignment/UCI HAR Dataset/test/y_test.txt", sep = "", header=FALSE, col.names = "Activity ID" )
-    wearTrain <- read.table("Assignment/UCI HAR Dataset/train/X_train.txt", sep = "", header=FALSE, col.names = XColNames$NAME )
-    yTrain <- read.table("Assignment/UCI HAR Dataset/train/y_train.txt", sep = "", header=FALSE, col.names = "Activity ID" )
+    wearTest <- read.table("UCI HAR Dataset/test/X_test.txt", sep = "", header=FALSE, col.names = XColNames$NAME )
+    yTest <- read.table("UCI HAR Dataset/test/y_test.txt", sep = "", header=FALSE, col.names = "Activity ID" )
+    wearTrain <- read.table("UCI HAR Dataset/train/X_train.txt", sep = "", header=FALSE, col.names = XColNames$NAME )
+    yTrain <- read.table("UCI HAR Dataset/train/y_train.txt", sep = "", header=FALSE, col.names = "Activity ID" )
     
     
     
