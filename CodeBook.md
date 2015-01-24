@@ -116,91 +116,90 @@ Information about the variables in the tidyData.txt data set.  Details include v
 ==================================================================================================
 There are 82 variables in the tidyData.txt.
 
-Activity_Name - The factor label for the activity being performed when measurement occurred.
-Subject.ID - The factor label for the subject wearing the device.
-tBodyAcc.mean...X - Average mean Time measure for the body accelerometer plane X in standard gravity units 'g'
-tBodyAcc.mean...Y - Average mean Time measure for the body accelerometer plane Y in standard gravity units 'g'
-tBodyAcc.mean...Z - Average mean Time measure for the body accelerometer plane Z in standard gravity units 'g'
-tGravityAcc.mean...X - Average mean Time measure for the gravity accelerometer plane X in standard gravity units 'g'
-tGravityAcc.mean...Y - Average mean Time measure for the gravity accelerometer plane Y in standard gravity units 'g'
-tGravityAcc.mean...Z - Average mean Time measure for the gravity accelerometer plane Z in standard gravity units 'g'
-tBodyAccJerk.mean...X - Average mean Time measure for the body jerk  on accelerometer plane X in standard gravity units 'g'
-tBodyAccJerk.mean...Y - Average mean Time measure for the body jerk  on accelerometer plane Y in standard gravity units 'g'
-tBodyAccJerk.mean...Z - Average mean Time measure for the body jerk  on accelerometer plane Z in standard gravity units 'g'
-tBodyGyro.mean...X - Average mean Time measure for the body velocity  on gyroscope plane X, units are radians/second
-tBodyGyro.mean...Y - Average mean Time measure for the body velocity  on gyroscope plane Y, units are radians/second
-tBodyGyro.mean...Z - Average mean Time measure for the body velocity  on gyroscope plane Z, units are radians/second
-tBodyGyroJerk.mean...X - Average mean Time measure for the body jerk  on gyroscope plane X, units are radians/second
-tBodyGyroJerk.mean...Y - Average mean Time measure for the body jerk  on gyroscope plane Y, units are radians/second
-tBodyGyroJerk.mean...Z - Average mean Time measure for the body jerk  on gyroscope plane Z, units are radians/second
-tBodyAccMag.mean.. - Average mean magnitude of the body accelerometer in standard gravity units 'g'
-tGravityAccMag.mean.. - Average mean magnitude of the gravity accelerometer in standard gravity units 'g'
-tBodyAccJerkMag.mean.. - Average mean magnitude of the body jerk on the accelerometer in standard gravity units 'g'
-tBodyGyroMag.mean.. - Average mean magnitude of the body gyroscope, units are radians/second
-tBodyGyroJerkMag.mean.. - Average mean magnitude of the body jerk on the gyroscope, units are radians/second
-fBodyAcc.mean...X - Average mean frequency measure for the body accelerometer plane X in standard gravity units 'g'
-fBodyAcc.mean...Y - Average mean frequency measure for the body accelerometer plane Y in standard gravity units 'g'
-fBodyAcc.mean...Z - Average mean frequency measure for the body accelerometer plane Z in standard gravity units 'g'
+<li>Activity_Name - The factor label for the activity being performed when measurement occurred.
+<li>Subject.ID - The factor label for the subject wearing the device.
+<li>tBodyAcc.mean...X - Average mean Time measure for the body accelerometer plane X in standard gravity units 'g'
+<li>tBodyAcc.mean...Y - Average mean Time measure for the body accelerometer plane Y in standard gravity units 'g'
+<li>tBodyAcc.mean...Z - Average mean Time measure for the body accelerometer plane Z in standard gravity units 'g'
+<li>tGravityAcc.mean...X - Average mean Time measure for the gravity accelerometer plane X in standard gravity units 'g'
+<li>tGravityAcc.mean...Y - Average mean Time measure for the gravity accelerometer plane Y in standard gravity units 'g'
+<li>tGravityAcc.mean...Z - Average mean Time measure for the gravity accelerometer plane Z in standard gravity units 'g'
+<li>tBodyAccJerk.mean...X - Average mean Time measure for the body jerk  on accelerometer plane X in standard gravity units 'g'
+<li>tBodyAccJerk.mean...Y - Average mean Time measure for the body jerk  on accelerometer plane Y in standard gravity units 'g'
+<li>tBodyAccJerk.mean...Z - Average mean Time measure for the body jerk  on accelerometer plane Z in standard gravity units 'g'
+<li>tBodyGyro.mean...X - Average mean Time measure for the body velocity  on gyroscope plane X, units are radians/second
+<li>tBodyGyro.mean...Y - Average mean Time measure for the body velocity  on gyroscope plane Y, units are radians/second
+<li>tBodyGyro.mean...Z - Average mean Time measure for the body velocity  on gyroscope plane Z, units are radians/second
+<li>tBodyGyroJerk.mean...X - Average mean Time measure for the body jerk  on gyroscope plane X, units are radians/second
+<li>tBodyGyroJerk.mean...Y - Average mean Time measure for the body jerk  on gyroscope plane Y, units are radians/second
+<li>tBodyGyroJerk.mean...Z - Average mean Time measure for the body jerk  on gyroscope plane Z, units are radians/second
+<li>tBodyAccMag.mean.. - Average mean magnitude of the body accelerometer in standard gravity units 'g'
+<li>tGravityAccMag.mean.. - Average mean magnitude of the gravity accelerometer in standard gravity units 'g'
+<li>tBodyAccJerkMag.mean.. - Average mean magnitude of the body jerk on the accelerometer in standard gravity units 'g'
+<li>tBodyGyroMag.mean.. - Average mean magnitude of the body gyroscope, units are radians/second
+<li>tBodyGyroJerkMag.mean.. - Average mean magnitude of the body jerk on the gyroscope, units are radians/second
+<li>fBodyAcc.mean...X - Average mean frequency measure for the body accelerometer plane X in standard gravity units 'g'
+<li>fBodyAcc.mean...Y - Average mean frequency measure for the body accelerometer plane Y in standard gravity units 'g'
+<li>fBodyAcc.mean...Z - Average mean frequency measure for the body accelerometer plane Z in standard gravity units 'g'
+<li>fBodyAcc.meanFreq...X - Average weighted average of the frequency componentfor the body accelerometer plane X in standard gravity units 'g'
+<li>fBodyAcc.meanFreq...Y - Average weighted average of the frequency componentfor the body accelerometer plane Y in standard gravity units 'g'
+<li>fBodyAcc.meanFreq...Z - Average weighted average of the frequency componentfor the body jerk accelerometer plane Z in standard gravity units 'g'
+<li>fBodyAccJerk.mean...X - Average mean weighted average of the frequency componentfor the body jerk accelerometer plane X in standard gravity units 'g'
+<li>fBodyAccJerk.mean...Y - Average mean weighted average of the frequency componentfor the body jerk accelerometer plane Y in standard gravity units 'g'
+<li>fBodyAccJerk.mean...Z - Average mean weighted average of the frequency componentfor the body jerk accelerometer plane Z in standard gravity units 'g'
+<li>fBodyAccJerk.meanFreq...X - Average weighted average of the frequency componentfor the body jerk accelerometer plane X in standard gravity units 'g'
+<li>fBodyAccJerk.meanFreq...Y - Average weighted average of the frequency componentfor the body jerk accelerometer plane Y in standard gravity units 'g'
+<li>fBodyAccJerk.meanFreq...Z - Average weighted average of the frequency componentfor the body jerk accelerometer plane Z in standard gravity units 'g'
+<li>fBodyGyro.mean...X - Average mean frequency measure for the body velocity  on gyroscope plane X, units are radians/second
+<li>fBodyGyro.mean...Y - Average mean frequency measure for the body velocity  on gyroscope plane Y, units are radians/second
+<li>fBodyGyro.mean...Z - Average mean frequency measure for the body velocity  on gyroscope plane Z, units are radians/second
+<li>fBodyGyro.meanFreq...X - Average weighted average of the frequency component for the body velocity on gyroscope plane X, units are radians/second
+<li>fBodyGyro.meanFreq...Y - Average weighted average of the frequency component for the body velocity on gyroscope plane Y, units are radians/second
+<li>fBodyGyro.meanFreq...Z - Average weighted average of the frequency component for the body velocity on gyroscope plane Z, units are radians/second
+<li>fBodyAccMag.mean.. - Average  mean of the frequency component for the body accelerometer magnitude in standard gravity units 'g'
+<li>fBodyAccMag.meanFreq.. - Average weighted average of the frequency componentfor the body accelerometer magnitude in standard gravity units 'g'
+<li>fBodyBodyAccJerkMag.mean.. - Average mean of the frequency componentfor the body jerk accelerometer magnitude in standard gravity units 'g'
+<li>fBodyBodyAccJerkMag.meanFreq.. - Average weighted average of the frequency componentfor the body jerk accelerometer magnitude in standard gravity units 'g'
+<li>fBodyBodyGyroMag.mean.. - Average mean frequency measure for the body velocity on gyroscope plane X, units are radians/second
+<li>fBodyBodyGyroMag.meanFreq.. - Average weighted average of the frequency component for body velocity magnitude on the gyroscope, units are radians/second
+<li>fBodyBodyGyroJerkMag.mean.. - Average mean frequency measure for the Body jerk velocity magnitude on gyroscope magnitude, units are radians/second
+<li>fBodyBodyGyroJerkMag.meanFreq.. - Average weighted average of the frequency component for the body gyroscope magnitude, units are radians/second
+<li>tBodyAcc.std...X - Average standard deviation of the time component for the body accelerometer plane X in standard gravity units 'g'
+<li>tBodyAcc.std...Y - Average standard deviation of the time component for the body accelerometer plane Y in standard gravity units 'g'
+<li>tBodyAcc.std...Z - Average standard deviation of the time component for the body accelerometer plane Z in standard gravity units 'g'
+<li>tGravityAcc.std...X - Average standard deviation of the time component for the gravity accelerometer plane X in standard gravity units 'g'
+<li>tGravityAcc.std...Y - Average standard deviation of the time component for the gravity accelerometer plane Y in standard gravity units 'g'
+<li>tGravityAcc.std...Z - Average standard deviation of the time component for the gravity accelerometer plane Z in standard gravity units 'g'
+<li>tBodyAccJerk.std...X - Average standard deviation of the time component for the body jerk accelerometer plane X in standard gravity units 'g'
+<li>tBodyAccJerk.std...Y - Average standard deviation of the time component for the body jerk accelerometer plane Y in standard gravity units 'g'
+<li>tBodyAccJerk.std...Z - Average standard deviation of the time component for the body jerk accelerometer plane Z in standard gravity units 'g'
+<li>tBodyGyro.std...X - Average standard deviation Time measure for the body velocity  on gyroscope plane X, units are radians/second
+<li>tBodyGyro.std...Y - Average  standard deviation Time measure for the body velocity  on gyroscope plane y, units are radians/second
+<li>tBodyGyro.std...Z - Average standard deviation Time measure for the body velocity  on gyroscope plane z, units are radians/second
+<li>tBodyGyroJerk.std...X - Average standard deviation Time measure for the body velocity  on gyroscope plane X, units are radians/second
+<li>tBodyGyroJerk.std...Y - Average standard deviation Time measure for the body velocity  on gyroscope plane Y, units are radians/second
+<li>tBodyGyroJerk.std...Z - Average standard deviation Time measure for the body velocity  on gyroscope plane Z, units are radians/second
 
-fBodyAcc.meanFreq...X - Average weighted average of the frequency componentfor the body accelerometer plane X in standard gravity units 'g'
-fBodyAcc.meanFreq...Y - Average weighted average of the frequency componentfor the body accelerometer plane Y in standard gravity units 'g'
-fBodyAcc.meanFreq...Z - Average weighted average of the frequency componentfor the body jerk accelerometer plane Z in standard gravity units 'g'
-fBodyAccJerk.mean...X - Average mean weighted average of the frequency componentfor the body jerk accelerometer plane X in standard gravity units 'g'
-fBodyAccJerk.mean...Y - Average mean weighted average of the frequency componentfor the body jerk accelerometer plane Y in standard gravity units 'g'
-fBodyAccJerk.mean...Z - Average mean weighted average of the frequency componentfor the body jerk accelerometer plane Z in standard gravity units 'g'
-fBodyAccJerk.meanFreq...X - Average weighted average of the frequency componentfor the body jerk accelerometer plane X in standard gravity units 'g'
-fBodyAccJerk.meanFreq...Y - Average weighted average of the frequency componentfor the body jerk accelerometer plane Y in standard gravity units 'g'
-fBodyAccJerk.meanFreq...Z - Average weighted average of the frequency componentfor the body jerk accelerometer plane Z in standard gravity units 'g'
-fBodyGyro.mean...X - Average mean frequency measure for the body velocity  on gyroscope plane X, units are radians/second
-fBodyGyro.mean...Y - Average mean frequency measure for the body velocity  on gyroscope plane Y, units are radians/second
-fBodyGyro.mean...Z - Average mean frequency measure for the body velocity  on gyroscope plane Z, units are radians/second
-fBodyGyro.meanFreq...X - Average weighted average of the frequency component for the body velocity on gyroscope plane X, units are radians/second
-fBodyGyro.meanFreq...Y - Average weighted average of the frequency component for the body velocity on gyroscope plane Y, units are radians/second
-fBodyGyro.meanFreq...Z - Average weighted average of the frequency component for the body velocity on gyroscope plane Z, units are radians/second
-fBodyAccMag.mean.. - Average  mean of the frequency component for the body accelerometer magnitude in standard gravity units 'g'
-fBodyAccMag.meanFreq.. - Average weighted average of the frequency componentfor the body accelerometer magnitude in standard gravity units 'g'
-fBodyBodyAccJerkMag.mean.. - Average mean of the frequency componentfor the body jerk accelerometer magnitude in standard gravity units 'g'
-fBodyBodyAccJerkMag.meanFreq.. - Average weighted average of the frequency componentfor the body jerk accelerometer magnitude in standard gravity units 'g'
-fBodyBodyGyroMag.mean.. - Average mean frequency measure for the body velocity on gyroscope plane X, units are radians/second
-fBodyBodyGyroMag.meanFreq.. - Average weighted average of the frequency component for body velocity magnitude on the gyroscope, units are radians/second
-fBodyBodyGyroJerkMag.mean.. - Average mean frequency measure for the Body jerk velocity magnitude on gyroscope magnitude, units are radians/second
-fBodyBodyGyroJerkMag.meanFreq.. - Average weighted average of the frequency component for the body gyroscope magnitude, units are radians/second
-tBodyAcc.std...X - Average standard deviation of the time component for the body accelerometer plane X in standard gravity units 'g'
-tBodyAcc.std...Y - Average standard deviation of the time component for the body accelerometer plane Y in standard gravity units 'g'
-tBodyAcc.std...Z - Average standard deviation of the time component for the body accelerometer plane Z in standard gravity units 'g'
-tGravityAcc.std...X - Average standard deviation of the time component for the gravity accelerometer plane X in standard gravity units 'g'
-tGravityAcc.std...Y - Average standard deviation of the time component for the gravity accelerometer plane Y in standard gravity units 'g'
-tGravityAcc.std...Z - Average standard deviation of the time component for the gravity accelerometer plane Z in standard gravity units 'g'
-tBodyAccJerk.std...X - Average standard deviation of the time component for the body jerk accelerometer plane X in standard gravity units 'g'
-tBodyAccJerk.std...Y - Average standard deviation of the time component for the body jerk accelerometer plane Y in standard gravity units 'g'
-tBodyAccJerk.std...Z - Average standard deviation of the time component for the body jerk accelerometer plane Z in standard gravity units 'g'
-tBodyGyro.std...X - Average standard deviation Time measure for the body velocity  on gyroscope plane X, units are radians/second
-tBodyGyro.std...Y - Average  standard deviation Time measure for the body velocity  on gyroscope plane y, units are radians/second
-tBodyGyro.std...Z - Average standard deviation Time measure for the body velocity  on gyroscope plane z, units are radians/second
-tBodyGyroJerk.std...X - Average standard deviation Time measure for the body velocity  on gyroscope plane X, units are radians/second
-tBodyGyroJerk.std...Y - Average standard deviation Time measure for the body velocity  on gyroscope plane Y, units are radians/second
-tBodyGyroJerk.std...Z - Average standard deviation Time measure for the body velocity  on gyroscope plane Z, units are radians/second
+<li>tBodyAccMag.std.. - Average standard deviation Time measure for the body accelerometer magnitude in standard gravity units 'g'
+<li>tGravityAccMag.std.. - Average standard deviation Time measure for the gravity accelerometer magnitude in standard gravity units 'g'
+<li>tBodyAccJerkMag.std.. - Average standard deviation Time measure for the body jerk accelerometer magnitude in standard gravity units 'g'
+<li>tBodyGyroMag.std.. - Average standard deviation Time measure for the body velocity magnitude on gyroscope , units are radians/second
+<li>tBodyGyroJerkMag.std.. - Average standard deviation Time measure for the body jerk velocity magnitude on gyroscope plane X, units are radians/second
 
-tBodyAccMag.std.. - Average standard deviation Time measure for the body accelerometer magnitude in standard gravity units 'g'
-tGravityAccMag.std.. - Average standard deviation Time measure for the gravity accelerometer magnitude in standard gravity units 'g'
-tBodyAccJerkMag.std.. - Average standard deviation Time measure for the body jerk accelerometer magnitude in standard gravity units 'g'
-tBodyGyroMag.std.. - Average standard deviation Time measure for the body velocity magnitude on gyroscope , units are radians/second
-tBodyGyroJerkMag.std.. - Average standard deviation Time measure for the body jerk velocity magnitude on gyroscope plane X, units are radians/second
-
-fBodyAcc.std...X - Average standard deviation of the frequency component for the body accelerometer plane X in standard gravity units 'g'
-fBodyAcc.std...Y - Average standard deviation of the frequency component for the body accelerometer plane Y in standard gravity units 'g'
-fBodyAcc.std...Z - Average standard deviation of the frequency component for the body accelerometer plane Z in standard gravity units 'g'
-fBodyAccJerk.std...X - Average standard deviation of the frequency component for the gravity accelerometer plane X in standard gravity units 'g'
-fBodyAccJerk.std...Y - Average standard deviation of the frequency component for the gravity accelerometer plane Y in standard gravity units 'g'
-fBodyAccJerk.std...Z - Average standard deviation of the frequency component for the gravity accelerometer plane Z in standard gravity units 'g'
-fBodyGyro.std...X - Average standard deviation of the frequency measure for the body velocity on gyroscope plane X, units are radians/second
-fBodyGyro.std...Y - Average standard deviation of the frequency measure for the body velocity on gyroscope plane Y, units are radians/second
-fBodyGyro.std...Z - Average standard deviation of the frequency measure for the body velocity on gyroscope plane Z, units are radians/second
-fBodyAccMag.std.. - Average standard deviation of the frequency measure for the Body accelerometer magnitude in standard gravity units 'g'
-fBodyBodyAccJerkMag.std.. - Average standard deviation of the frequency measure for the Body jerk accelerometer magnitude in standard gravity units 'g'
-fBodyBodyGyroMag.std.. - Average standard deviation of the frequency measure for the Body velocity magnitude on gyroscope, units are radians/second
-fBodyBodyGyroJerkMag.std.. - Average standard deviation of the frequency measure for the Body velocity magnitude on gyroscope, units are radians/second
-Activity.ID - number code for the activity.
+<li>fBodyAcc.std...X - Average standard deviation of the frequency component for the body accelerometer plane X in standard gravity units 'g'
+<li>fBodyAcc.std...Y - Average standard deviation of the frequency component for the body accelerometer plane Y in standard gravity units 'g'
+<li>fBodyAcc.std...Z - Average standard deviation of the frequency component for the body accelerometer plane Z in standard gravity units 'g'
+<li>fBodyAccJerk.std...X - Average standard deviation of the frequency component for the gravity accelerometer plane X in standard gravity units 'g'
+<li>fBodyAccJerk.std...Y - Average standard deviation of the frequency component for the gravity accelerometer plane Y in standard gravity units 'g'
+<li>fBodyAccJerk.std...Z - Average standard deviation of the frequency component for the gravity accelerometer plane Z in standard gravity units 'g'
+<li>fBodyGyro.std...X - Average standard deviation of the frequency measure for the body velocity on gyroscope plane X, units are radians/second
+<li>fBodyGyro.std...Y - Average standard deviation of the frequency measure for the body velocity on gyroscope plane Y, units are radians/second
+<li>fBodyGyro.std...Z - Average standard deviation of the frequency measure for the body velocity on gyroscope plane Z, units are radians/second
+<li>fBodyAccMag.std.. - Average standard deviation of the frequency measure for the Body accelerometer magnitude in standard gravity units 'g'
+<li>fBodyBodyAccJerkMag.std.. - Average standard deviation of the frequency measure for the Body jerk accelerometer magnitude in standard gravity units 'g'
+<li>fBodyBodyGyroMag.std.. - Average standard deviation of the frequency measure for the Body velocity magnitude on gyroscope, units are radians/second
+<li>fBodyBodyGyroJerkMag.std.. - Average standard deviation of the frequency measure for the Body velocity magnitude on gyroscope, units are radians/second
+<li>Activity.ID - number code for the activity.
 
 
 
