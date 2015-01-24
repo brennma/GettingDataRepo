@@ -179,13 +179,11 @@ There are 82 variables in the tidyData.txt.
 <li>tBodyGyroJerk.std...X - Average standard deviation Time measure for the body velocity  on gyroscope plane X, units are radians/second
 <li>tBodyGyroJerk.std...Y - Average standard deviation Time measure for the body velocity  on gyroscope plane Y, units are radians/second
 <li>tBodyGyroJerk.std...Z - Average standard deviation Time measure for the body velocity  on gyroscope plane Z, units are radians/second
-
 <li>tBodyAccMag.std.. - Average standard deviation Time measure for the body accelerometer magnitude in standard gravity units 'g'
 <li>tGravityAccMag.std.. - Average standard deviation Time measure for the gravity accelerometer magnitude in standard gravity units 'g'
 <li>tBodyAccJerkMag.std.. - Average standard deviation Time measure for the body jerk accelerometer magnitude in standard gravity units 'g'
 <li>tBodyGyroMag.std.. - Average standard deviation Time measure for the body velocity magnitude on gyroscope , units are radians/second
 <li>tBodyGyroJerkMag.std.. - Average standard deviation Time measure for the body jerk velocity magnitude on gyroscope plane X, units are radians/second
-
 <li>fBodyAcc.std...X - Average standard deviation of the frequency component for the body accelerometer plane X in standard gravity units 'g'
 <li>fBodyAcc.std...Y - Average standard deviation of the frequency component for the body accelerometer plane Y in standard gravity units 'g'
 <li>fBodyAcc.std...Z - Average standard deviation of the frequency component for the body accelerometer plane Z in standard gravity units 'g'
