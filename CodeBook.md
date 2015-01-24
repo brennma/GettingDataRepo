@@ -116,7 +116,7 @@ Information about the variables in the tidyData.txt data set.  Details include v
 ==================================================================================================
 There are 82 variables in the tidyData.txt.
 
-<li>Activity_Name - The factor label for the activity being performed when measurement occurred.
+- Activity_Name - The factor label for the activity being performed when measurement occurred.
 <li>Subject.ID - The factor label for the subject wearing the device.
 <li>tBodyAcc.mean...X - Average mean Time measure for the body accelerometer plane X in standard gravity units 'g'
 <li>tBodyAcc.mean...Y - Average mean Time measure for the body accelerometer plane Y in standard gravity units 'g'
